@@ -2,13 +2,6 @@
 
 A personal full-stack project that predicts a user's **investment risk profile** using a machine learning model, and generates a deterministic, explainable **investment recommendation** across four product types: **FD, PPF, NPS, and Mutual Funds**.
 
-> ⚠️ **Disclaimer:** This is an educational project built for learning ML + full-stack integration. It is **not** a real financial advisory tool and should not be used to make actual investment decisions.
-
-## Why this project?
-
-- Practice building and serving a real ML model (risk classification).
-- Practice integrating an ML microservice with a Node.js backend.
-- Practice designing a clean separation between **probabilistic ML predictions** and **deterministic business logic**.
 
 ## Architecture
 
