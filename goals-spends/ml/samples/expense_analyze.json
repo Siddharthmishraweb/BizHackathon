@@ -1,0 +1,14 @@
+[
+  { "amount": 42000, "category": "Tier_A_NonNegotiable", "date": "2026-08-01", "description": "Home loan EMI", "tier": "Tier_A_NonNegotiable", "merchant": "HDFC Bank" },
+  { "amount": 8500, "category": "Tier_A_NonNegotiable", "date": "2026-08-03", "description": "LIC premium payment", "tier": "Tier_A_NonNegotiable", "merchant": "LIC of India" },
+  { "amount": 2400, "category": "Tier_A_NonNegotiable", "date": "2026-08-05", "description": "Water and maintenance charges", "tier": "Tier_A_NonNegotiable", "merchant": "Prestige Society" },
+  { "amount": 5200, "category": "Tier_B_Optimizable", "date": "2026-08-06", "description": "Monthly grocery shopping", "tier": "Tier_B_Optimizable", "merchant": "BigBasket" },
+  { "amount": 1200, "category": "Tier_B_Optimizable", "date": "2026-08-02", "description": "Broadband internet bill", "tier": "Tier_B_Optimizable", "merchant": "ACT Fibernet" },
+  { "amount": 2100, "category": "Tier_B_Optimizable", "date": "2026-08-08", "description": "Electricity bill", "tier": "Tier_B_Optimizable", "merchant": "BESCOM" },
+  { "amount": 3000, "category": "Tier_B_Optimizable", "date": "2026-08-10", "description": "Fuel and cab rides", "tier": "Tier_B_Optimizable", "merchant": "Uber" },
+  { "amount": 2800, "category": "Tier_C_Flexible", "date": "2026-08-12", "description": "Dinner with friends", "tier": "Tier_C_Flexible", "merchant": "Barbeque Nation" },
+  { "amount": 6500, "category": "Tier_C_Flexible", "date": "2026-08-14", "description": "Clothing purchase", "tier": "Tier_C_Flexible", "merchant": "Myntra" },
+  { "amount": 1499, "category": "Tier_C_Flexible", "date": "2026-08-01", "description": "OTT subscription bundle", "tier": "Tier_C_Flexible", "merchant": "Netflix" },
+  { "amount": 499, "category": "Tier_D_Leakage", "date": "2026-08-01", "description": "Unused fitness app subscription", "tier": "Tier_D_Leakage", "merchant": "Cult.fit" },
+  { "amount": 2200, "category": "Tier_D_Leakage", "date": "2026-08-16", "description": "Impulse electronics purchase", "tier": "Tier_D_Leakage", "merchant": "Amazon" }
+]

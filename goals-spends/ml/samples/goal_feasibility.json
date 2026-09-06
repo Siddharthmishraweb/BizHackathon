@@ -1,0 +1,8 @@
+{
+  "name": "Buy a Car",
+  "target_amount": 1500000,
+  "current_amount": 300000,
+  "deadline": "2028-02-24",
+  "category": "car",
+  "priority": 3
+}

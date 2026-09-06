@@ -1,0 +1,5 @@
+[
+  { "name": "Monthly Salary", "amount": 145000, "frequency": "monthly", "variability": 0.03, "probability": 0.98 },
+  { "name": "Annual Performance Bonus", "amount": 180000, "frequency": "annual", "variability": 0.3, "probability": 0.7 },
+  { "name": "Freelance Consulting", "amount": 15000, "frequency": "monthly", "variability": 0.4, "probability": 0.6 }
+]

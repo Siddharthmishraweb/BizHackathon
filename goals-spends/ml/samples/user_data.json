@@ -1,0 +1,1299 @@
+{
+  "user_id": "usr_10234",
+  "email": "arjun.sharma@gmail.com",
+  "transactions": [
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-09-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2025-09-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2025-09-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1200,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-09-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-09-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2217,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-09-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5040,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-09-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2066,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-09-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 2698,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-09-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2516,
+      "category": "Tier_C_Flexible",
+      "date": "2025-09-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 6470,
+      "category": "Tier_C_Flexible",
+      "date": "2025-09-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 2669,
+      "category": "Tier_D_Leakage",
+      "date": "2025-09-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-10-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2025-10-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2025-10-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1200,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-10-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-10-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2484,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-10-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5579,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-10-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 1908,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-10-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 2669,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-10-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 3094,
+      "category": "Tier_C_Flexible",
+      "date": "2025-10-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 7819,
+      "category": "Tier_C_Flexible",
+      "date": "2025-10-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-11-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2025-11-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2025-11-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1200,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-11-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-11-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2203,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-11-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5898,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-11-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 1812,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-11-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 6777,
+      "category": "Tier_C_Flexible",
+      "date": "2025-11-09",
+      "description": "Diwali gifts and decor",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 3450,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-11-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2793,
+      "category": "Tier_C_Flexible",
+      "date": "2025-11-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 10229,
+      "category": "Tier_C_Flexible",
+      "date": "2025-11-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 1840,
+      "category": "Tier_D_Leakage",
+      "date": "2025-11-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-12-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2025-12-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2025-12-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1200,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-12-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-12-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2470,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2025-12-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5784,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-12-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 1936,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-12-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 3599,
+      "category": "Tier_B_Optimizable",
+      "date": "2025-12-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2340,
+      "category": "Tier_C_Flexible",
+      "date": "2025-12-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 7154,
+      "category": "Tier_C_Flexible",
+      "date": "2025-12-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 2667,
+      "category": "Tier_D_Leakage",
+      "date": "2025-12-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 2898,
+      "category": "Tier_C_Flexible",
+      "date": "2025-12-26",
+      "description": "Year-end sale shopping",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Flipkart"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-01-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-01-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-01-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1200,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-01-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-01-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2546,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-01-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 4497,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-01-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2058,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-01-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 3454,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-01-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2822,
+      "category": "Tier_C_Flexible",
+      "date": "2026-01-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 7284,
+      "category": "Tier_C_Flexible",
+      "date": "2026-01-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 3507,
+      "category": "Tier_C_Flexible",
+      "date": "2026-01-26",
+      "description": "Year-end sale shopping",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Flipkart"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-02-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-02-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-02-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1200,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-02-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-02-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2280,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-02-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 4851,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-02-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2106,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-02-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 2516,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-02-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2549,
+      "category": "Tier_C_Flexible",
+      "date": "2026-02-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 6081,
+      "category": "Tier_C_Flexible",
+      "date": "2026-02-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 2200,
+      "category": "Tier_D_Leakage",
+      "date": "2026-02-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-03-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-03-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-03-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1199,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-03-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-03-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2323,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-03-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5883,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-03-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 1869,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-03-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 3230,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-03-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2640,
+      "category": "Tier_C_Flexible",
+      "date": "2026-03-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 5716,
+      "category": "Tier_C_Flexible",
+      "date": "2026-03-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 1804,
+      "category": "Tier_D_Leakage",
+      "date": "2026-03-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 4200,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-03-18",
+      "description": "Annual health checkup",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Apollo Diagnostics"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-04-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-04-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-04-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1199,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-04-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-04-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2219,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-04-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 4534,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-04-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2754,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-04-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 2866,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-04-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2272,
+      "category": "Tier_C_Flexible",
+      "date": "2026-04-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 7633,
+      "category": "Tier_C_Flexible",
+      "date": "2026-04-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-05-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-05-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-05-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1199,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-05-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-05-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2584,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-05-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5297,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-05-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2903,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-05-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 3320,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-05-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 3084,
+      "category": "Tier_C_Flexible",
+      "date": "2026-05-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 7411,
+      "category": "Tier_C_Flexible",
+      "date": "2026-05-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 2693,
+      "category": "Tier_D_Leakage",
+      "date": "2026-05-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 32000,
+      "category": "Tier_C_Flexible",
+      "date": "2026-05-22",
+      "description": "Family weekend trip to Coorg",
+      "tier": "Tier_C_Flexible",
+      "merchant": "MakeMyTrip"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-06-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-06-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-06-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1199,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-06-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-06-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2372,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-06-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 4469,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-06-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2761,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-06-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 3553,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-06-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2869,
+      "category": "Tier_C_Flexible",
+      "date": "2026-06-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 7193,
+      "category": "Tier_C_Flexible",
+      "date": "2026-06-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 24000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-06-20",
+      "description": "Health insurance annual renewal",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Star Health"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-07-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-07-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-07-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1199,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-07-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-07-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2250,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-07-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 5104,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-07-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 1883,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-07-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 3392,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-07-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 2425,
+      "category": "Tier_C_Flexible",
+      "date": "2026-07-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 5412,
+      "category": "Tier_C_Flexible",
+      "date": "2026-07-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 1716,
+      "category": "Tier_D_Leakage",
+      "date": "2026-07-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    },
+    {
+      "amount": 42000,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-08-01",
+      "description": "Home loan EMI",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "HDFC Bank"
+    },
+    {
+      "amount": 1499,
+      "category": "Tier_C_Flexible",
+      "date": "2026-08-01",
+      "description": "OTT subscription bundle",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Netflix"
+    },
+    {
+      "amount": 499,
+      "category": "Tier_D_Leakage",
+      "date": "2026-08-01",
+      "description": "Unused fitness app subscription",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Cult.fit"
+    },
+    {
+      "amount": 1199,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-08-02",
+      "description": "Broadband internet bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "ACT Fibernet"
+    },
+    {
+      "amount": 8500,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-08-03",
+      "description": "LIC premium payment",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "LIC of India"
+    },
+    {
+      "amount": 2169,
+      "category": "Tier_A_NonNegotiable",
+      "date": "2026-08-05",
+      "description": "Water and maintenance charges",
+      "tier": "Tier_A_NonNegotiable",
+      "merchant": "Prestige Society"
+    },
+    {
+      "amount": 4777,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-08-06",
+      "description": "Monthly grocery shopping",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BigBasket"
+    },
+    {
+      "amount": 2074,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-08-08",
+      "description": "Electricity bill",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "BESCOM"
+    },
+    {
+      "amount": 2538,
+      "category": "Tier_B_Optimizable",
+      "date": "2026-08-10",
+      "description": "Fuel and cab rides",
+      "tier": "Tier_B_Optimizable",
+      "merchant": "Uber"
+    },
+    {
+      "amount": 3174,
+      "category": "Tier_C_Flexible",
+      "date": "2026-08-12",
+      "description": "Dinner with friends",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Barbeque Nation"
+    },
+    {
+      "amount": 6227,
+      "category": "Tier_C_Flexible",
+      "date": "2026-08-14",
+      "description": "Clothing purchase",
+      "tier": "Tier_C_Flexible",
+      "merchant": "Myntra"
+    },
+    {
+      "amount": 1444,
+      "category": "Tier_D_Leakage",
+      "date": "2026-08-16",
+      "description": "Impulse electronics purchase",
+      "tier": "Tier_D_Leakage",
+      "merchant": "Amazon"
+    }
+  ],
+  "income_sources": [
+    {
+      "name": "Monthly Salary",
+      "amount": 145000,
+      "frequency": "monthly",
+      "variability": 0.03,
+      "probability": 0.98
+    },
+    {
+      "name": "Annual Performance Bonus",
+      "amount": 180000,
+      "frequency": "annual",
+      "variability": 0.3,
+      "probability": 0.7
+    },
+    {
+      "name": "Freelance Consulting",
+      "amount": 15000,
+      "frequency": "monthly",
+      "variability": 0.4,
+      "probability": 0.6
+    }
+  ],
+  "assets": [
+    {
+      "name": "HDFC Savings Account",
+      "value": 320000,
+      "asset_type": "savings",
+      "liquidity": "high",
+      "returns_percentage": 3.5
+    },
+    {
+      "name": "SBI Fixed Deposit",
+      "value": 500000,
+      "asset_type": "fd",
+      "liquidity": "medium",
+      "returns_percentage": 6.75
+    },
+    {
+      "name": "Equity Mutual Funds (SIP)",
+      "value": 780000,
+      "asset_type": "mutual_fund",
+      "liquidity": "medium",
+      "returns_percentage": 12.5
+    },
+    {
+      "name": "Direct Equity Portfolio",
+      "value": 450000,
+      "asset_type": "stock",
+      "liquidity": "high",
+      "returns_percentage": 15.0
+    },
+    {
+      "name": "EPF Balance",
+      "value": 610000,
+      "asset_type": "epf",
+      "liquidity": "low",
+      "returns_percentage": 8.15
+    }
+  ],
+  "liabilities": [
+    {
+      "name": "Home Loan - HDFC Bank",
+      "current_balance": 5800000,
+      "interest_rate": 8.5,
+      "monthly_payment": 42000,
+      "remaining_months": 204
+    },
+    {
+      "name": "Car Loan - ICICI Bank",
+      "current_balance": 420000,
+      "interest_rate": 9.25,
+      "monthly_payment": 14500,
+      "remaining_months": 32
+    },
+    {
+      "name": "Credit Card Outstanding",
+      "current_balance": 65000,
+      "interest_rate": 36.0,
+      "monthly_payment": 15000,
+      "remaining_months": 5
+    }
+  ],
+  "goals": [
+    {
+      "name": "Emergency Fund",
+      "target_amount": 900000,
+      "current_amount": 320000,
+      "deadline": "2027-08-24",
+      "category": "emergency",
+      "priority": 1
+    },
+    {
+      "name": "Buy a House",
+      "target_amount": 12000000,
+      "current_amount": 1800000,
+      "deadline": "2031-08-24",
+      "category": "house",
+      "priority": 2
+    },
+    {
+      "name": "Buy a Car",
+      "target_amount": 1500000,
+      "current_amount": 300000,
+      "deadline": "2028-02-24",
+      "category": "car",
+      "priority": 3
+    },
+    {
+      "name": "Child Education Fund",
+      "target_amount": 3500000,
+      "current_amount": 450000,
+      "deadline": "2036-06-01",
+      "category": "education",
+      "priority": 1
+    },
+    {
+      "name": "Family Vacation to Europe",
+      "target_amount": 400000,
+      "current_amount": 80000,
+      "deadline": "2027-03-01",
+      "category": "vacation",
+      "priority": 4
+    }
+  ]
+}

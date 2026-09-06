@@ -1,0 +1,50 @@
+{
+  "current_situation": {
+    "user_id": "usr_10234",
+    "email": "arjun.sharma@gmail.com",
+    "transactions": [
+      { "amount": 42000, "category": "Tier_A_NonNegotiable", "date": "2026-08-01", "description": "Home loan EMI", "tier": "Tier_A_NonNegotiable", "merchant": "HDFC Bank" },
+      { "amount": 8500, "category": "Tier_A_NonNegotiable", "date": "2026-08-03", "description": "LIC premium payment", "tier": "Tier_A_NonNegotiable", "merchant": "LIC of India" },
+      { "amount": 2400, "category": "Tier_A_NonNegotiable", "date": "2026-08-05", "description": "Water and maintenance charges", "tier": "Tier_A_NonNegotiable", "merchant": "Prestige Society" },
+      { "amount": 5200, "category": "Tier_B_Optimizable", "date": "2026-08-06", "description": "Monthly grocery shopping", "tier": "Tier_B_Optimizable", "merchant": "BigBasket" },
+      { "amount": 1200, "category": "Tier_B_Optimizable", "date": "2026-08-02", "description": "Broadband internet bill", "tier": "Tier_B_Optimizable", "merchant": "ACT Fibernet" },
+      { "amount": 2100, "category": "Tier_B_Optimizable", "date": "2026-08-08", "description": "Electricity bill", "tier": "Tier_B_Optimizable", "merchant": "BESCOM" },
+      { "amount": 3000, "category": "Tier_B_Optimizable", "date": "2026-08-10", "description": "Fuel and cab rides", "tier": "Tier_B_Optimizable", "merchant": "Uber" },
+      { "amount": 2800, "category": "Tier_C_Flexible", "date": "2026-08-12", "description": "Dinner with friends", "tier": "Tier_C_Flexible", "merchant": "Barbeque Nation" },
+      { "amount": 6500, "category": "Tier_C_Flexible", "date": "2026-08-14", "description": "Clothing purchase", "tier": "Tier_C_Flexible", "merchant": "Myntra" },
+      { "amount": 1499, "category": "Tier_C_Flexible", "date": "2026-08-01", "description": "OTT subscription bundle", "tier": "Tier_C_Flexible", "merchant": "Netflix" },
+      { "amount": 499, "category": "Tier_D_Leakage", "date": "2026-08-01", "description": "Unused fitness app subscription", "tier": "Tier_D_Leakage", "merchant": "Cult.fit" },
+      { "amount": 2200, "category": "Tier_D_Leakage", "date": "2026-08-16", "description": "Impulse electronics purchase", "tier": "Tier_D_Leakage", "merchant": "Amazon" }
+    ],
+    "income_sources": [
+      { "name": "Monthly Salary", "amount": 145000, "frequency": "monthly", "variability": 0.03, "probability": 0.98 },
+      { "name": "Annual Performance Bonus", "amount": 180000, "frequency": "annual", "variability": 0.3, "probability": 0.7 },
+      { "name": "Freelance Consulting", "amount": 15000, "frequency": "monthly", "variability": 0.4, "probability": 0.6 }
+    ],
+    "assets": [
+      { "name": "HDFC Savings Account", "value": 320000, "asset_type": "savings", "liquidity": "high", "returns_percentage": 3.5 },
+      { "name": "SBI Fixed Deposit", "value": 500000, "asset_type": "fd", "liquidity": "medium", "returns_percentage": 6.75 },
+      { "name": "Equity Mutual Funds (SIP)", "value": 780000, "asset_type": "mutual_fund", "liquidity": "medium", "returns_percentage": 12.5 },
+      { "name": "Direct Equity Portfolio", "value": 450000, "asset_type": "stock", "liquidity": "high", "returns_percentage": 15.0 },
+      { "name": "EPF Balance", "value": 610000, "asset_type": "epf", "liquidity": "low", "returns_percentage": 8.15 }
+    ],
+    "liabilities": [
+      { "name": "Home Loan - HDFC Bank", "current_balance": 5800000, "interest_rate": 8.5, "monthly_payment": 42000, "remaining_months": 204 },
+      { "name": "Car Loan - ICICI Bank", "current_balance": 420000, "interest_rate": 9.25, "monthly_payment": 14500, "remaining_months": 32 },
+      { "name": "Credit Card Outstanding", "current_balance": 65000, "interest_rate": 36.0, "monthly_payment": 15000, "remaining_months": 5 }
+    ],
+    "goals": [
+      { "name": "Emergency Fund", "target_amount": 900000, "current_amount": 320000, "deadline": "2027-08-24", "category": "emergency", "priority": 1 },
+      { "name": "Buy a House", "target_amount": 12000000, "current_amount": 1800000, "deadline": "2031-08-24", "category": "house", "priority": 2 },
+      { "name": "Buy a Car", "target_amount": 1500000, "current_amount": 300000, "deadline": "2028-02-24", "category": "car", "priority": 3 },
+      { "name": "Child Education Fund", "target_amount": 3500000, "current_amount": 450000, "deadline": "2036-06-01", "category": "education", "priority": 1 },
+      { "name": "Family Vacation to Europe", "target_amount": 400000, "current_amount": 80000, "deadline": "2027-03-01", "category": "vacation", "priority": 4 }
+    ]
+  },
+  "scenario_changes": {
+    "action": "reduce_flexible_spending",
+    "category": "Tier_C_Flexible",
+    "reduction_percentage": 20,
+    "description": "Reduce flexible spending (dining, shopping) by 20% starting next month"
+  }
+}

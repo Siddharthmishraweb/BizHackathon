@@ -1,0 +1,74 @@
+{
+  "_notes": [
+    "IMPORTANT: this file is documentation only (curl commands, query params, which file to send).",
+    "The actual ready-to-POST request bodies live as STANDALONE files in ml/samples/, one JSON value per file with no wrapper -- so you can always do --data-binary @ml/samples/<file>.json safely without picking apart nested keys.",
+    "Query params go in the URL (?key=value), never in the JSON body -- FastAPI puts scalar route args in the query string whenever the route also has a body-model/list param.",
+    "Server must be running: bash start_ml_engine.sh (defaults to http://localhost:8000)."
+  ],
+  "endpoints": {
+    "GET /health": {
+      "curl": "curl http://localhost:8000/health"
+    },
+    "POST /api/v1/analyze/situation": {
+      "description": "Analyze current financial situation. Body = full UserDataInput profile.",
+      "body_file": "ml/samples/user_data.json",
+      "curl": "curl -X POST http://localhost:8000/api/v1/analyze/situation -H 'Content-Type: application/json' --data-binary @ml/samples/user_data.json"
+    },
+    "POST /api/v1/analyze/goals": {
+      "description": "Analyze goal feasibility and recovery plans. Body = full UserDataInput profile.",
+      "body_file": "ml/samples/user_data.json",
+      "curl": "curl -X POST http://localhost:8000/api/v1/analyze/goals -H 'Content-Type: application/json' --data-binary @ml/samples/user_data.json"
+    },
+    "POST /api/v1/analyze/comprehensive": {
+      "description": "Full financial plan (situation + goals + forecast + recommendations). Body = full UserDataInput profile.",
+      "body_file": "ml/samples/user_data.json",
+      "curl": "curl -X POST http://localhost:8000/api/v1/analyze/comprehensive -H 'Content-Type: application/json' --data-binary @ml/samples/user_data.json"
+    },
+    "POST /api/v1/expense/analyze": {
+      "description": "Analyze just a list of transactions. Body is a bare JSON array, NOT wrapped in an object.",
+      "body_file": "ml/samples/expense_analyze.json",
+      "curl": "curl -X POST http://localhost:8000/api/v1/expense/analyze -H 'Content-Type: application/json' --data-binary @ml/samples/expense_analyze.json"
+    },
+    "POST /api/v1/forecast/cashflow": {
+      "description": "Forecast cash flow. 'monthly_expenses' and 'current_savings' are QUERY params; body is a bare array of income sources.",
+      "query_params": { "monthly_expenses": 146058.75, "current_savings": 320000, "months": 12 },
+      "body_file": "ml/samples/forecast_cashflow.json",
+      "curl": "curl -X POST 'http://localhost:8000/api/v1/forecast/cashflow?monthly_expenses=146058.75&current_savings=320000&months=12' -H 'Content-Type: application/json' --data-binary @ml/samples/forecast_cashflow.json"
+    },
+    "POST /api/v1/goal/feasibility": {
+      "description": "Feasibility for a single goal. 'monthly_surplus' is a QUERY param; body is a single GoalInput (not wrapped).",
+      "query_params": { "monthly_surplus": 15000 },
+      "body_file": "ml/samples/goal_feasibility.json",
+      "curl": "curl -X POST 'http://localhost:8000/api/v1/goal/feasibility?monthly_surplus=15000' -H 'Content-Type: application/json' --data-binary @ml/samples/goal_feasibility.json"
+    },
+    "POST /api/v1/simulation/monte-carlo": {
+      "description": "Monte Carlo goal simulation. All parameters are QUERY params; there is no request body.",
+      "query_params": { "current_amount": 300000, "monthly_contribution": 15000, "target_amount": 1500000, "months": 18, "iterations": 2000 },
+      "curl": "curl -X POST 'http://localhost:8000/api/v1/simulation/monte-carlo?current_amount=300000&monthly_contribution=15000&target_amount=1500000&months=18&iterations=2000'"
+    },
+    "POST /api/v1/recommendations/generate": {
+      "description": "Generate prioritized recommendations + action plan. Body = full UserDataInput profile.",
+      "body_file": "ml/samples/user_data.json",
+      "curl": "curl -X POST http://localhost:8000/api/v1/recommendations/generate -H 'Content-Type: application/json' --data-binary @ml/samples/user_data.json"
+    },
+    "GET /api/v1/recommendations/{rec_id}/explain": {
+      "description": "Explain a recommendation. 'rec_id' is a PATH param; 'rec_data' is a QUERY param holding a JSON-encoded recommendation object (use --data-urlencode).",
+      "path_params": { "rec_id": "REC_002_OPTIMIZE" },
+      "curl": "curl -G http://localhost:8000/api/v1/recommendations/REC_002_OPTIMIZE/explain --data-urlencode 'rec_data={\"id\":\"REC_002_OPTIMIZE\",\"title\":\"Optimize Flexible Spending\",\"category\":\"Expense Optimization\",\"estimated_impact\":2699.75,\"annual_impact\":32397.0,\"priority\":\"MEDIUM\",\"confidence\":0.7}'"
+    },
+    "POST /api/v1/recommendation/validate": {
+      "description": "Validate a recommendation is financially safe. Body is {user_data, recommendation} nested (two body params combined into one object).",
+      "body_file": "ml/samples/recommendation_validate.json",
+      "curl": "curl -X POST http://localhost:8000/api/v1/recommendation/validate -H 'Content-Type: application/json' --data-binary @ml/samples/recommendation_validate.json"
+    },
+    "GET /api/v1/config": {
+      "curl": "curl http://localhost:8000/api/v1/config"
+    },
+    "POST /api/v1/scenario/what-if": {
+      "description": "What-if scenario analysis (placeholder logic in gaie.py). 'months' is a QUERY param; body is {current_situation, scenario_changes} nested.",
+      "query_params": { "months": 12 },
+      "body_file": "ml/samples/scenario_what_if.json",
+      "curl": "curl -X POST 'http://localhost:8000/api/v1/scenario/what-if?months=12' -H 'Content-Type: application/json' --data-binary @ml/samples/scenario_what_if.json"
+    }
+  }
+}
