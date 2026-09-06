@@ -1,0 +1,27 @@
+{
+  "name": "wealthai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WealthAI — personal finance dashboard, Goals app and Goal Achievement Intelligence Engine (single monorepo)",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:ml": "bash scripts/start-ml.sh",
+    "dev:backend": "npm run dev -w apps/backend",
+    "dev:frontend": "npm run dev -w apps/frontend",
+    "dev:goals": "npm run dev -w apps/goals-frontend",
+    "start:dev": "concurrently -n ML,BACKEND,FRONTEND,GOALS -c yellow,green,cyan,magenta \"npm:dev:ml\" \"npm:dev:backend\" \"npm:dev:frontend\" \"npm:dev:goals\"",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "setup:ml": "bash scripts/setup-ml.sh",
+    "test:ml": "bash scripts/setup-ml.sh && ml/venv/bin/python -m pytest ml/tests -v",
+    "test:all": "npm run test && npm run test:ml"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "overrides": {
+    "qs": "^6.16.0"
+  }
+}
